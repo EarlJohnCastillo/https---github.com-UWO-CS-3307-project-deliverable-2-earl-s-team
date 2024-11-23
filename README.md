@@ -1,3 +1,24 @@
+This is for a final project for Western's CS 3307 class
+This project uses React as a front end and C++ as a back end. 
+The reason for this is that the team wanted this project to be a website to enable ease of use of the program without 
+having to download an executable.
+
+
+
+- Required Packages
+- React: 
+  https://nodejs.org/en/download/package-manager
+  Installs Node JS 
+- C++:
+  -EMSCRIPTEN: https://emscripten.org/docs/getting_started/downloads.html
+  -This downloads allow C++ backend communication with React Front End and is essential for communication between these langugages
+  -Upon starting, make sure to run this command in the terminal to activate emsdk: source ./emsdk_env.sh
+
+
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -48,9 +69,3 @@ export default tseslint.config({
   },
 });
 ```
-
-- Required Packages
-- C++:
-  -EMSCRIPTEN: https://emscripten.org/docs/getting_started/downloads.html
-  -This downloads allow C++ backend communication with React Front End and is essential for communication between these langugages
-  -Upon starting, make sure to run this command in the terminal to activate emsdk: source ./emsdk_env.sh
