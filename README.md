@@ -9,10 +9,13 @@ having to download an executable.
 - React: 
   https://nodejs.org/en/download/package-manager
   Installs Node JS 
+  After installing node.js, open the terminal or command prompt and run this command to install npm dependancies: 
+  npm install 
 - C++:
   -EMSCRIPTEN: https://emscripten.org/docs/getting_started/downloads.html
   -This downloads allow C++ backend communication with React Front End and is essential for communication between these langugages
   -Upon starting, make sure to run this command in the terminal to activate emsdk: source ./emsdk_env.sh
+  - https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites --> Installs C++ Comiler
 
 
 
