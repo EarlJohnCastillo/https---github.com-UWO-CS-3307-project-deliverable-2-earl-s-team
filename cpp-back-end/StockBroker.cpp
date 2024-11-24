@@ -1,14 +1,12 @@
 #include <iostream>
 #include <string> 
-#include "Stock.h"
+#include "StockAnalyzer.h"
 
 using namespace std; 
 
 int main()
 {
-    Stock testStock("NVDA", "Nvidia", 141.95, 107, 110.78, 134.01, 0.03, 1, 0.01, 0.01, 0, 0);
-
-    std::cout << testStock.getInformation(); 
-
+    StockAnalyzer analysis;
+    analysis.printStocksList(); 
     return 0; 
 }

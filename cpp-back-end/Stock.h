@@ -1,4 +1,13 @@
 
+/* 
+* Creator: Earl John Castillo
+* Date: 20/11/2024
+* Purpose:
+*   This is the stock object. Holds all nessisary information about a stock. 
+*   Also contains getters and setters of nessisary Stock Object attributes
+*   and has a formatted output to be used to display to React front-end
+*/
+
 //Compiler guards 
 #ifndef STOCK_H 
 #define STOCK_H
